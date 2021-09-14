@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# extracted from ThePremeagen dotfiles
 selected=`cat ~/.config/dotfiles/.tmux-cht-languages ~/.config/dotfiles/.tmux-cht-command | fzf`
 read -p "Enter Query: " query
 
